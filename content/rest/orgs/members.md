@@ -3,9 +3,8 @@ title: Organization members
 allowTitleToDifferFromFilename: true
 shortTitle: Members
 intro: Use the REST API to manage memberships in your organization.
-versions:
+versions: # DO NOT MANUALLY EDIT. CHANGES WILL BE OVERWRITTEN BY A 🤖
   fpt: '*'
-  ghae: '*'
   ghec: '*'
   ghes: '*'
 topics:

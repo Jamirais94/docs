@@ -9,6 +9,8 @@ redirect_from:
 shortTitle: Starter assignment
 ---
 
+{% data reusables.classroom.note-on-assignment-changes %}
+
 The Git & {% data variables.product.company_short %} starter assignment is a pre-made course that summarizes the basics of Git and {% data variables.product.company_short %} and links students to resources to learn more about specific topics.
 
 ## Prerequisites
@@ -27,7 +29,7 @@ The Git & {% data variables.product.company_short %} starter assignment is a pre
 
 1. Sign into {% data variables.product.prodname_classroom_with_url %}.
 1. Navigate to a classroom.
-1. In the {% octicon "repo" aria-label="The repo icon" %} **Assignments** tab, click the link in the blue banner.
+1. In the {% octicon "repo" aria-hidden="true" %} **Assignments** tab, click the link in the blue banner.
 
 ## Setting up the basics for an assignment
 

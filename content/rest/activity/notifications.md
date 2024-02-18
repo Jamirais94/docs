@@ -1,11 +1,12 @@
 ---
-title: Notifications
+title: REST API endpoints for notifications
+shortTitle: Notifications
+allowTitleToDifferFromFilename: true
 intro: >-
   Use the REST API to manage {% data variables.product.product_name %}
   notifications.
-versions:
+versions: # DO NOT MANUALLY EDIT. CHANGES WILL BE OVERWRITTEN BY A 🤖
   fpt: '*'
-  ghae: '*'
   ghec: '*'
   ghes: '*'
 topics:
@@ -47,6 +48,7 @@ There are a few potential `reason`s for receiving a notification.
 
 Reason Name | Description
 ------------|------------
+`approval_requested` | You were requested to review and approve a deployment. For more information, see "[AUTOTITLE](/actions/managing-workflow-runs/reviewing-deployments)."
 `assign` | You were assigned to the issue.
 `author` | You created the thread.
 `comment` | You commented on the thread.
@@ -63,6 +65,5 @@ Reason Name | Description
 Note that the `reason` is modified on a per-thread basis, and can change, if the `reason` on a later notification is different.
 
 For example, if you are the author of an issue, subsequent notifications on that issue will have a `reason` of `author`. If you're then  **@mentioned** on the same issue, the notifications you fetch thereafter will have a `reason` of `mention`. The `reason` remains as `mention`, regardless of whether you're ever mentioned again.
-
 
 <!-- Content after this section is automatically generated -->

@@ -6,6 +6,9 @@ versions:
 permissions: 'Organization owners who are admins for a classroom can reuse assignments from a classroom. {% data reusables.classroom.classroom-admins-link %}'
 shortTitle: Reuse an assignment
 ---
+
+{% data reusables.classroom.note-on-assignment-changes %}
+
 ## About reusing assignments
 
 You can reuse an existing individual or group assignment in any other classroom you have access to, including classrooms in a different organization. You can also reuse multiple assignments at once from a classroom. If you choose to reuse an assignment, {% data variables.product.prodname_classroom %} will copy the assignment to the classroom you choose. If the assignment uses a template repository and you choose to reuse it in a classroom from a different organization, {% data variables.product.prodname_classroom %} will create a copy of the repository and its contents in the target organization.
@@ -17,7 +20,7 @@ The copied assignment includes assignment details such as the name, source repos
 1. Sign into {% data variables.product.prodname_classroom_with_url %}.
 1. Navigate to the classroom that has the assignment that you want to reuse.
 1. In the list of assignments, click the assignment you want to reuse.
-1. Select the **{% octicon "pencil" aria-label="The pencil icon" %} Edit** dropdown menu in the top right of the page, then click **{% octicon "sync" aria-label="The sync icon" %} Reuse assignment**.
+1. Select the **{% octicon "pencil" aria-hidden="true" %} Edit** dropdown menu in the top right of the page, then click **{% octicon "sync" aria-hidden="true" %} Reuse assignment**.
 
    ![Screenshot of an assignment. The "Edit" dropdown is expanded and the "Reuse assignment" option is outlined in dark orange.](/assets/images/help/classroom/reuse-assignment-button.png)
 
